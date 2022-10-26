@@ -1,0 +1,36 @@
+body {
+    background-color:hsl(212, 45%, 89%);
+    margin-top: 100px;
+    margin-left: 535px;
+    margin-right: 535px;
+    display: block;
+}
+h1{
+    font-size: 20px;
+    height: 10px;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    font-weight: lighter;
+    height: 5px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+img{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}    
+div{
+    background-color:  hsl(0, 0%, 100%);
+    border: 15px solid white;
+    border-radius: 15px;
+}
+.attribution{
+    background-color:hsl(212, 45%, 89%) ;
+    border-color: hsl(212, 45%, 89%);
+    height: 50px;
+}
