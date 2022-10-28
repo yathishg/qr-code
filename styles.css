@@ -34,10 +34,3 @@ div{
     border: 15px solid white;
     border-radius: 15px;
 }
-.attribution{
-    background-color:hsl(212, 45%, 89%) ;
-    border-color: hsl(212, 45%, 89%);
-    position: absolute;
-    top: 550px;
-    display: inline-block;
-}
