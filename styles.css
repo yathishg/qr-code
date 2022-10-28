@@ -1,9 +1,11 @@
 body {
     background-color:hsl(212, 45%, 89%);
-    margin-top: 100px;
-    margin-left: 535px;
-    margin-right: 535px;
-    display: block;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: outfit, sans-serif;   
 }
 h1{
     font-size: 20px;
@@ -19,7 +21,10 @@ p{
 }
 img{
     width: 250px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -32,5 +37,7 @@ div{
 .attribution{
     background-color:hsl(212, 45%, 89%) ;
     border-color: hsl(212, 45%, 89%);
-    height: 50px;
+    position: absolute;
+    top: 550px;
+    display: inline-block;
 }
